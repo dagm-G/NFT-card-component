@@ -32,12 +32,30 @@ p {
   margin: -240px 0 0 -150px;
   border-radius: 15px;
 }
-
-.card-image {
+.img-link {
   width: 85%;
   height: 50%;
-  border-radius: 6px;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
   margin: 1.2rem auto;
+  background-image: url(./images/image-equilibrium.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px;
+}
+
+/* .img-link:hover {
+  background: url(./images/icon-view.svg);
+  background-size: 4rem;
+  background-repeat: no-repeat;
+} */
+.view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 .info {
@@ -49,10 +67,10 @@ p {
   justify-content: space-between;
 }
 .header {
-  color: var(--White);
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 1rem;
+  text-decoration: none;
 }
 
 .price-date {
@@ -65,13 +83,17 @@ p {
   width: 15px;
   height: 15px;
 }
+.icon-2 {
+  width: 10px;
+  height: 15px;
+}
 .price {
   color: var(--Main-Cyan);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80px;
-  font-size: 13px;
+  width: 81px;
+  font-size: 14px;
   font-weight: 600;
 }
 .date {
@@ -84,16 +106,19 @@ p {
 
   font-weight: 500;
 }
-
 .credit {
   display: flex;
   align-items: center;
   padding-top: 1rem;
 }
-.name {
+.nav-link {
   color: var(--White);
+  text-decoration: none;
 }
-
+.nav-link:hover {
+  color: var(--Main-Cyan);
+  cursor: pointer;
+}
 .avatar {
   border: 1px solid white;
   width: 25px;
